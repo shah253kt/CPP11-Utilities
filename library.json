@@ -1,0 +1,21 @@
+{
+    "name": "C++11 Utilities",
+    "version": "1.0.0",
+    "description": "A utility library for C++11 to be used on embedded platform like ESP32.",
+    "keywords": "utility, esp32, string, math",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shah253kt/C-11-Utilities.git"
+    },
+    "authors": [
+        {
+            "name": "Ahmad Shahril",
+            "url": "https://github.com/shah253kt",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/shah253kt/C-11-Utilities",
+    "frameworks": "*",
+    "platforms": "*"
+}
