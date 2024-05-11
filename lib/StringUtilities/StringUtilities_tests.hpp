@@ -84,3 +84,9 @@ INSTANTIATE_TEST_SUITE_P(trim, TrimStringUtilitiesParameterizedTest,
                          ::testing::Values(
                              std::make_pair("   \r\nInput string\r\n  ", "Input string"),
                              std::make_pair("   \r\n\r\n  ", "")));
+
+TEST(trim, TrimRValue) {
+    ASSERT_EQ("My String \n", StringUtilities::ltrim("\r\n  My String \n"));
+    ASSERT_EQ("\r\n  My String", StringUtilities::rtrim("\r\n  My String \n"));
+    ASSERT_EQ("My String", StringUtilities::trim("\r\n  My String \n"));
+}

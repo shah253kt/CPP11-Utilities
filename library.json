@@ -5,7 +5,7 @@
     "keywords": "utility, esp32, string, math",
     "repository": {
         "type": "git",
-        "url": "https://github.com/shah253kt/C-11-Utilities.git"
+        "url": "https://github.com/shah253kt/CPP11-Utilities.git"
     },
     "authors": [
         {
@@ -15,7 +15,7 @@
         }
     ],
     "license": "MIT",
-    "homepage": "https://github.com/shah253kt/C-11-Utilities",
-    "frameworks": "*",
-    "platforms": "*"
+    "homepage": "https://github.com/shah253kt/CPP11-Utilities",
+    "frameworks": "arduino",
+    "platforms": "espressif32"
 }
